@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTMl Form input label fieldset legend textarea</title>
+    <link rel="stylesheet" href="./css/style.css">
+    <style>
+        
+    </style>
+</head>
+<body>
+    <header>
+
+        <nav>
+            <ul>
+                <li><a href="./index.html">Home</a></li>
+                <li><a href="./form.html">Form</a></li>
+                <li><a href="./table.html">Table</a></li>
+                <li><a href="./audi-video.html">senamatic</a></li>
+                <li><a href="./about-us.html">About us</a></li>
+            </ul>
+        </nav>
+    </header>
+    <h1>Jamaler Ma Special TSC Pitha Expo
+    </h1>
+    <form action="index.php">
+        <label for="yourName">name</label>
+        <input placeholder="Enter your Name" type="text" id="yourName">
+        <br> <br>
+        <label for="yourEmail">Email</label>
+        <input placeholder="Enter your Email" type="text" id="yourEmail">
+        <fieldset>
+            <legend>Select  your Pitha</legend>
+            <p>
+                <label for="chitoy">
+                    <input type="radio" name="pitha" id="chitoy">Chitoy
+                </label>
+            </p>
+            <p>
+                <label for="vapa-pitha">
+                    <input type="radio" name="pitha" id="vapa-pitha">Vapa
+                </label>
+            </p>
+            <p>
+                <label for="taler-pitha">
+                    <input type="radio" name="pitha" id="taler-pitha">Taler pitha
+                </label>
+            </p>
+            
+        </fieldset>
+        <fieldset>
+            <legend>Select your vorta </legend>
+            <p><label for="sorisa"><input type="checkbox" name="vorta" id="sorisa">Sorisa vorta </label> </p>
+            <p><label for="shutki"><input type="checkbox" name="vorta" id="shutki">shutki vorta</label></p>
+            <p><label for="begun"><input type="checkbox" name="vorta" id="begun">Begun vorta</label></p>
+        </fieldset>
+        <p>special instraction</p>
+        <textarea placeholder="write your special instruction" name="instraction" id="" cols="30" rows="10"></textarea>
+        <button type="submit">Submit  now </button>
+        <button type="reset">Reset now </button>
+    </form>
+</body>
+</html>
